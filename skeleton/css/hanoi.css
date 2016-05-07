@@ -1,0 +1,103 @@
+html, body, figure, figcaption, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+  background: pink;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 30px;
+}
+
+form {
+  display: block;
+  clear: both;
+  text-align: left;
+}
+.hanoi {
+  margin: 30px auto;
+  width: 900px;
+}
+
+ul {
+  display: block;
+  float: left;
+  width: 180px;
+  padding: 0 0 10px 0;
+  border-bottom: 10px solid black;
+  cursor: pointer;
+}
+
+ul:hover {
+  border-color: blue;
+}
+
+ul.selected {
+  border-color: red;
+}
+
+ul {
+  margin: 0 20px;
+}
+
+li {
+  width: 0px;
+  margin: 10px auto;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+li.disk-1 {
+  width: 50px;
+  background: yellow;
+}
+
+li.disk-2 {
+  width: 80px;
+  background: green;
+}
+
+li.disk-3 {
+  width: 120px;
+  background: blue;
+}
+
+li.disk-4 {
+  width: 160px;
+  background: purple;
+}
+
+.game-over ul {
+  cursor: default;
+  border-color: black;
+}
+
+.game-over {
+  text-align: center;
+}
+
+.game-over li {
+  background: blue;
+  color: yellow;
+  font-size: 30px;
+}
